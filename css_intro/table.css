@@ -1,4 +1,4 @@
-.first {
+/* .first {
     background-color: aliceblue;
 }
 
@@ -16,4 +16,23 @@
 
 .fifth {
     background-color: blueviolet;
+}
+*/
+
+
+#rows-style tr:nth-child(2n+1) {
+    background-color: blue;
+}
+
+#rows-style tr:nth-child(2n+2)  {
+    background-color: blueviolet;
+}
+
+
+#col-style td:nth-child(2n+1) {
+    background-color: rgb(126, 126, 20);
+}
+
+#col-style td:nth-child(2n+2) {
+    background-color: rgb(228, 220, 245);
 }
