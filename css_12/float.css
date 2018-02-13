@@ -10,16 +10,16 @@ body{
     width: 950px;
     margin: 0 auto;
 }
-#content{
-    height:1100px;
+main{
+    overflow: hidden;
 }
-#navbar {
+header{
     background-color: rgb(170, 21, 21);
     height: 40px;
     margin-bottom: 1px;
 }
 
-#ul_navbar li {
+header li {
     float:right;
     padding: 10px;
     list-style-type: none;
@@ -61,11 +61,14 @@ width:200px;
   background-color: gray;
 }
 
-#footer{
+footer{
     color:white;
     width: 1150px;
-    margin:0 auto;
+    margin:10px auto;
     height: 40px;
     background-color: #15153B;
     position: relative;
+    padding-top:10px;
+    text-align: center;
+
 }

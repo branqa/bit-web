@@ -1,0 +1,17 @@
+body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-position: right; */
+    background-image: url('https://i.pinimg.com/236x/b3/12/16/b31216cc0f2751400a611a2d09b7416f--clipart-journals.jpg');
+    background-position: center right;
+    background-size: contain;
+    margin-right:35px;
+
+}
+
+p {
+    background-image: url('https://www.w3schools.com/css/img_tree.gif');
+    background-repeat: no-repeat;
+ 
+}
+

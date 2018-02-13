@@ -1,0 +1,19 @@
+img:first-child{
+    height: 200px;
+    float: right;
+ 
+}
+img:nth-child(2){
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+
+}
+img:nth-child(3){
+    width: 200px;
+    height: 200px;
+    
+    
+}
+
