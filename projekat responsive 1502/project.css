@@ -1,0 +1,284 @@
+/* Body */
+
+@font-face {
+    font-family: FontAwesome;
+    src: url('./Fonts/fontawesome-webfont.ttf');
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+    background-image: url(banner3.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;   
+    color: white; 
+    padding: 18% 0 8% 0;
+    
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 9%;
+    padding: 0 6%;
+}
+
+header a {
+    text-decoration: none;
+    background: rgb(53, 103, 197);
+    padding: 3% 5%;
+    border-radius: 43px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+/* Main */
+
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 8%;
+    color: rgb(104, 101, 101);
+    font-weight: 700;
+}
+
+main span {
+    border:  4px solid rgb(104, 101, 101);
+    border-right: 0; 
+    color: rgb(250, 159, 40);
+    padding-left: 3%;
+    
+}
+
+nav {
+    margin-top: 6%;
+    margin-bottom: 20%;
+    text-align: center;
+    background-color: rgb(124, 188, 248);
+    padding: 2% 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li  {
+    padding: 2% 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* section Who we are */
+
+section {
+    padding: 0 7%;
+}
+
+  section h2 {
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 10%;
+  }
+
+  section h3 {
+      padding-bottom: 6%;
+      color: rgb(110, 167, 219);
+  }
+
+  section p {
+      font-size: 14px;
+      line-height: 23px;
+  }
+
+  section ul {
+      list-style-image: url('arrow_bullet.png');
+      padding: 9% 0 8% 5%;
+  }
+
+  section ul li {
+      padding-bottom: 5%;
+      color: rgb(121, 121, 121);
+  }
+
+  article img {
+      width: 100%;
+  }
+
+  article {
+      margin-bottom: 8%;
+  }
+
+  /* What people says */
+
+.blue-background {
+    background-color: rgb(124, 188, 248);
+    padding: 8% 4%;
+  }
+
+  section div img {
+      width: 23%;
+      border-radius: 50%;
+      border: 2px solid white;
+      padding: 1%;
+      float: left;
+  }
+
+  .name {
+    width: 70%;
+    float: left;
+    margin-left: 6%;
+    padding-top: 5%;
+  }
+
+  .name h5 {
+      font-weight: 600;
+  }
+
+ .blue-background p {
+    display: inline-block;
+    color: white;
+    margin-top: 2%;
+  }
+
+  .fa.fa-star, .fa.fa-star-half-full {
+    color: #fff;
+    padding-top: 2%;
+  }
+
+
+
+/* Responsive layout for tablet */
+
+@media only screen and (min-width: 768px) {
+
+    main h1 {
+        position: absolute;
+        top: -40px;
+        left: 16px;
+        color: white;
+        width: 32%;
+    }
+
+    main span {
+        padding-left: 2%;
+        border-color: white;
+    }
+
+    nav li {
+        float: left;
+        display: inline;
+        padding-right: 4%;
+    }
+
+    nav {
+        position: absolute;
+        top: -38px;
+        right: 27px;
+        background-color: transparent;
+        width: 45%;
+    }
+
+    header a {
+        padding: 2% 5%;
+    }
+
+    header h1 {
+        font-size: 33px;
+    }
+
+    header {
+        padding-bottom: 17%;
+    }
+
+    section {
+        margin-top: 8%;
+    }
+
+    section h2 {
+        font-size: 32px;
+    }
+
+    .float-left  h3, p, ul {
+        
+        width: 53%;
+        display: inline-block;
+        padding-bottom: 3%;
+    }
+
+    .float-left ul{
+        padding:3% 0 3% 2%;
+    }
+
+    article img {
+        width: 47%;
+        float: right;
+        display: inline-block;
+        margin-top: -20%;
+    }
+
+
+}
+
+
+  
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
