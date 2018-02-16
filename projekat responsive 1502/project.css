@@ -197,6 +197,10 @@ section {
         width: 45%;
     }
 
+    nav ul {
+        width: 100%;
+    }
+
     header a {
         padding: 2% 5%;
     }
@@ -210,7 +214,7 @@ section {
     }
 
     section {
-        margin-top: 8%;
+        margin-top: 10%;
     }
 
     section h2 {
@@ -219,7 +223,7 @@ section {
 
     .float-left  h3, p, ul {
         
-        width: 53%;
+        width: 50%;
         display: inline-block;
         padding-bottom: 3%;
     }
@@ -233,6 +237,97 @@ section {
         float: right;
         display: inline-block;
         margin-top: -20%;
+    }
+
+    article {
+        margin-bottom: 5%;
+    }
+
+    #paragraph {
+        width: 100%;
+    }
+
+    section ul {
+        padding: 2% 0 8% 3%;
+    }
+
+    .blue-background {
+        width: 47%;
+        float: left;
+        padding: 5% 4%;
+    }
+
+    .blue-background:nth-child(2) {
+        margin-right: 5%;
+    }
+
+
+    .blue-background p {
+        width: 100%;
+    }
+
+    .blue-background div:nth-child(3) {
+        width: 100%;
+    }
+
+    section div img {
+        margin-top: 1%;
+        width: 35%;
+    }
+
+    .name  {
+        width: 59%;
+    }
+
+    /* Responsive layout for desktop devices */
+
+    @media only screen and (min-width: 1200px) {
+
+    header h1 {
+       font-size: 41px;
+       padding: 0 3%;
+
+    }
+
+    nav {
+        width: 30%;
+        top: -63px;
+    }
+
+    main h1 {
+        top: -72px;
+        left: -42px;
+    }
+
+    article {
+        width: 31%;
+       
+        display: inline-block;
+      
+    }
+
+    .float-left {
+        margin-right:3%;
+        width: 62%;
+        display: inline-block;
+        float:left;
+       
+    }
+
+    .float-right {
+        margin:0;
+    }
+
+    ul{
+        width:100%;
+    }
+
+    article img {
+        margin-top: -58%;
+    }
+
+    section h2 {
+        padding-bottom: 7%;
     }
 
 
