@@ -1,9 +1,22 @@
 /* Body */
 
 @font-face {
-    font-family: FontAwesome;
+    font-family: "FontAwesome";
     src: url('./Fonts/fontawesome-webfont.ttf');
 }
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url('./Fonts/fontawesome-webfont.woff') format("woff"),
+         url('./Fonts/fontawesome-webfont.woff2') format("woff2"),
+}
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url('./Fonts/fontawesome-webfont.eot') format('eot');
+}
+
+
 
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -34,7 +47,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    background: rgb(53, 103, 197);
+    background: #2370b0;
     padding: 3% 5%;
     border-radius: 43px;
     color: white;
@@ -52,14 +65,14 @@ main h1 {
     text-align: center;
     font-size: 32px;
     margin-top: 8%;
-    color: rgb(104, 101, 101);
+    color: #777777;
     font-weight: 700;
 }
 
 main span {
-    border:  4px solid rgb(104, 101, 101);
+    border:  4px solid #777777;
     border-right: 0; 
-    color: rgb(250, 159, 40);
+    color: #fb9534;
     padding-left: 3%;
     
 }
@@ -68,7 +81,7 @@ nav {
     margin-top: 6%;
     margin-bottom: 20%;
     text-align: center;
-    background-color: rgb(124, 188, 248);
+    background-color: #84c4f3;
     padding: 2% 0;
 }
 
@@ -101,12 +114,16 @@ section {
 
   section h3 {
       padding-bottom: 6%;
-      color: rgb(110, 167, 219);
+      color: #84c4f3;
   }
 
   section p {
       font-size: 14px;
       line-height: 23px;
+  }
+
+  q {
+    color: #6a6666;
   }
 
   section ul {
@@ -116,7 +133,7 @@ section {
 
   section ul li {
       padding-bottom: 5%;
-      color: rgb(121, 121, 121);
+      color: #939191;
   }
 
   article img {
@@ -130,7 +147,7 @@ section {
   /* What people says */
 
 .blue-background {
-    background-color: rgb(124, 188, 248);
+    background-color: #84c4f3;
     padding: 8% 4%;
   }
 
@@ -162,6 +179,140 @@ section {
   .fa.fa-star, .fa.fa-star-half-full {
     color: #fff;
     padding-top: 2%;
+  }
+
+  /* Get in touch */
+
+  #get-in-touch {
+      padding: 0;
+      margin: 0;
+  }
+
+  #get-in-touch article {
+   padding: 26px 0;
+  }
+
+  #contact {
+      width: 100%;
+      background-color: #44dc9c;
+      color: white;
+      text-align: center;
+      margin: 0;
+  }
+
+  #get-in-touch h4 {
+    padding-bottom: 3%;
+    font-weight: 500;
+  }
+
+  #get-in-touch p {
+      display: inline;
+  }
+
+  #contact .fa-mobile {
+    padding-right: 1%;
+    font-size: 24px;
+    padding-bottom: 4%;
+  }
+
+  #contact .fa-envelope {
+    padding-right: 2%;
+  }
+
+  #connect {
+    width: 100%;
+    background-color: #f95583;
+    color: white;
+    text-align: center;
+    margin: 0;
+  }
+
+  #connect .fa {
+      padding: 3% 4%;
+  }
+
+  #address {
+    width: 100%;
+    background-color: #3b6fe1;
+    color: white;
+    text-align: center;
+    margin: 0;
+  }
+
+  #home {
+    background-color: #84c4f3;
+    margin: 0;
+  }
+
+  #home img {
+    width: 85%;
+    height: 124px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* Form section */
+
+  #form {
+      margin-top: 12%;
+  }
+
+  input, textarea {
+    border: 1px solid #777777;
+    display: block;
+    width: 100%;
+    padding: 3% 0 3% 2%;
+    margin-bottom: 5%;
+  }
+
+  #form {
+      padding: 0;
+      width: 95%;
+      margin: 14% auto;
+  }
+
+  #button {
+    width: 25%;
+    border-radius: 5px;
+    padding: 2% 1%;
+    color: white;
+    border: 0;
+    background-color: #fb9638;
+  }
+
+  /* Footer */
+
+  footer {
+      background-color: #212121;
+      padding: 51px 2px;
+      color: white;
+      text-align: center;
+      font-size: 12px;
+  }
+
+  footer a {
+      color: white;
+      text-decoration: none;
+  }
+
+  footer li {
+      list-style: none;
+      display: inline-block;
+      padding: 1% 2%;
+  }
+
+  footer ul {
+      padding-bottom: 6%;
+  }
+
+  section ul {
+      padding-bottom: 0;
+  }
+
+  .image img {
+      margin-bottom: 14%;
+      width: 100%;
+      border-radius: 0;
   }
 
 
@@ -214,18 +365,48 @@ section {
     }
 
     section {
-        margin-top: 10%;
+        margin-top: 47px;
     }
 
     section h2 {
         font-size: 32px;
     }
 
-    .float-left  h3, p, ul {
-        
-        width: 50%;
+    .float-left  h3, .float-left p, .float-left ul {
+        width: 90%;
         display: inline-block;
         padding-bottom: 3%;
+    }
+
+    #intro article ul li {
+        padding-bottom: 19px !important;
+    }
+
+    #intro article ul {
+        padding-top: 14px;
+    }
+
+    .float-right p {
+        padding-bottom: 2%;
+    }
+
+    div.image {
+        float: left;
+        width: 40%;
+    }
+
+    div.image img {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .float-left {
+        width: 60%;
+        float: left;
+    }
+
+    .float-right {
+        clear: left;
     }
 
     .float-left ul{
@@ -234,7 +415,7 @@ section {
 
     article img {
         width: 47%;
-        float: right;
+        float: right; 
         display: inline-block;
         margin-top: -20%;
     }
@@ -279,9 +460,48 @@ section {
         width: 59%;
     }
 
-    /* Responsive layout for desktop devices */
+    #get-in-touch {
+        clear: left;
+        padding-top: 8%;
+    }
 
-    @media only screen and (min-width: 1200px) {
+    #contact, #connect, #address, #home {
+        width: 50%;
+        float: left;
+    }
+
+    input {
+        width: 30%;
+        display: inline;
+        margin-left: 2%;
+        font-size: 14px;
+    }
+
+    textarea {
+        width: 95%;
+        margin-left: 2%;
+        font-size: 14px;
+    }
+
+    section#get-in-touch article {
+        height: 172px;
+        padding: 32px 0;
+    }
+
+    #button {
+        width: 17%;
+    }
+
+    
+}
+
+
+
+
+
+/* Responsive layout for desktop devices */
+
+@media only screen and (min-width: 1200px) {
 
     header h1 {
        font-size: 41px;
@@ -300,15 +520,13 @@ section {
     }
 
     article {
-        width: 31%;
-       
-        display: inline-block;
-      
+        width: 32%;
+        display: block;
     }
 
     .float-left {
         margin-right:3%;
-        width: 62%;
+        width: 65%;
         display: inline-block;
         float:left;
        
@@ -322,23 +540,100 @@ section {
         width:100%;
     }
 
-    article img {
-        margin-top: -58%;
-    }
-
     section h2 {
         padding-bottom: 7%;
     }
 
+    #right-list li {
+        padding-bottom: 7%;
+    }
+
+    section ul li {
+        padding-bottom: 3%;
+    }
+
+    .blue-background {
+        width: 31%;
+    }
+
+    .blue-background:nth-child(3) {
+        margin-right: 3%;
+
+    }
+
+    .blue-background:nth-child(2) {
+        margin-right: 3%;
+    }
+
+    .float-left div {
+        float: left;
+    }  
+    
+    #intro article, #intro div.image {
+        display: inline-block;
+        text-align: left;
+    }
+    
+    #intro {
+        text-align: center;
+    }
+    
+    #intro article {
+        width: 37%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #intro div.image {
+        width: 24%;
+        margin: 0 auto;
+        padding: 0 1.4%;
+    }
+    
+    #intro div.image img {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #intro article p {
+        width: 100%;
+    }
+    
+    #intro .float-left {
+        float: left;
+        padding-left: 6%;
+    }
+    
+    #intro .float-right {
+        float: right;
+        padding-right: 4%;
+        clear: none;
+    }
+
+    .clear {
+        clear: left;
+    }
+
+    #what-people-says {
+        padding-top: 140px;
+    }
+
+    section#get-in-touch article {
+        width: 25%;
+    }
+
+    .blue-background {
+        width: 31.24%;
+    }
+
+    .blue-background:nth-child(2) {
+        margin-right: 3.24%;
+    }
+
 
 }
-
-
-  
-
-
-   
-
 
 
 
