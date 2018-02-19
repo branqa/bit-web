@@ -1,0 +1,66 @@
+@import 'variables';
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $generalFont;
+    background: $backgroundcolor_general;
+}
+.container {
+    width: $width_gen;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 20px 0;
+    text-align: center;
+    background: $background_h1;
+    color: $color;
+}
+
+h2 {
+    margin-bottom: 0px;
+    padding-left: 10px;
+    text-align: left;
+    background: $background_h2;
+    color: $color;
+}
+
+img {
+    height: 400px;
+    margin: 40px auto 40px;
+    display: block;
+}
+
+@mixin width_table($width) {
+    width: $width;
+}
+
+table {@include width_table(100%)}
+
+table {
+    color: #333;
+    background: $color;
+    border-collapse: collapse;
+    tr {
+        border-bottom: $border_for_tr;
+    }
+    
+    td {
+        padding: 5px 0;
+    }
+    
+    td:first-child {
+        width: 300px;
+        padding-left: 10px;
+    }
+    
+}
+
+p#footer {
+    margin-top: 100px;
+}
+
+@import 'mixins';
