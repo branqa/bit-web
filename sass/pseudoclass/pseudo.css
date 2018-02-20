@@ -1,0 +1,49 @@
+a {
+  text-decoration: none;
+  font-size: 25px;
+  padding: 5%; }
+  a:active {
+    background-color: yellow; }
+  a:visited {
+    background-color: orange; }
+  a:link {
+    background-color: green; }
+  a.important {
+    font-weight: bolder; }
+
+p:nth-child(1) {
+  font-size: 16px;
+  background-color: aquamarine; }
+
+p:nth-child(2) {
+  font-size: 18px;
+  background-color: pink; }
+
+p:nth-child(3) {
+  font-size: 20px;
+  background-color: coral; }
+
+p:nth-child(4) {
+  font-size: 22px;
+  background-color: darkorchid; }
+
+p {
+  padding: 10px;
+  border: 3px solid black; }
+
+p:nth-child(1) {
+  box-sizing: border-box;
+  width: 426px; }
+
+p:nth-child(2) {
+  width: 400px; }
+
+table {
+  width: 600px;
+  border-collapse: collapse; }
+
+td {
+  width: 200px;
+  border: 1px solid #ff4400; }
+
+/*# sourceMappingURL=pseudo.css.map */

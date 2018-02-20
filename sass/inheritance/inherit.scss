@@ -1,0 +1,31 @@
+body {
+    margin: 0 auto;
+    width: 95%;
+}
+
+p {
+    border: 1px solid yellow;
+    background-color: rgb(214, 194, 247);
+    display: inline-block;
+    width: 300px / 960px * 100%;
+   
+}
+
+#first {
+    @extend p;
+    border-color: red;
+    margin-right:2.5%;
+    
+}
+
+#second {
+    @extend p;
+    border-color: blue;
+    margin-right:2.5%;
+    
+}
+
+#third {
+    @extend p;
+    border-color: green;
+}

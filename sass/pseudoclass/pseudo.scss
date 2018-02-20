@@ -1,0 +1,74 @@
+a {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5%;
+    &:active{
+        background-color: yellow;
+    }
+    &:visited{
+        background-color: orange;
+    }
+    &:link {
+        background-color: green;
+    }
+    &.important {
+        font-weight: bolder;
+    }
+}
+
+@mixin background-color($color){
+    @if $color == 1 {
+        background-color: aquamarine;
+    }
+    @else if $color == 2 {
+        background-color: pink;
+    }
+    @else if $color == 3 {
+        background-color: coral;
+    } 
+    @else if $color == 4 {
+        background-color: darkorchid;
+    }
+}
+
+@for $i from 1 through 4 {
+    p:nth-child(#{$i}) {
+        font-size: 16px + ($i - 1) * 2px;
+        @include background-color($i);
+    }
+}
+
+@function width_border($width_content,$padding,$border){
+    @return $width_content + 2* $padding + 2*$border;
+}
+
+p{
+    padding:10px;
+    border:3px solid black;
+}
+
+p:nth-child(1) {
+    box-sizing: border-box;
+    width: width_border(400px,10px ,3px );
+    
+}
+
+p:nth-child(2){
+    width: 400px;
+}
+
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+    
+}
+
+@function column_width($width_t,$number_of_c) {
+    @return $width_t / $number_of_c;
+}
+
+td{
+    width: column_width(600px, 3);
+    border: 1px solid rgb(255, 68, 0);
+}
