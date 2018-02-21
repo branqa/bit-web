@@ -1,0 +1,31 @@
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
+
+#r1_c1, #r1_c2 {
+    background-color: hotpink;
+}
+
+#r2_c1, #r2_c2, #r2_c3 {
+    background-color: aqua;
+}
+
+#r3_c1, #r3_c2 {
+    background-color: yellow;
+}
+
+*[class  *= 'col-'] {
+    border: 1px solid  black;
+}
+
+
+
