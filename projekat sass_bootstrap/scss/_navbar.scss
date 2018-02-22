@@ -1,0 +1,23 @@
+$color_blueish:#2c3e50;
+$color_white:white;
+
+.navbar {
+    background-color: $color_blueish;
+    .navbar-brand {
+        color: $color_white;
+    }
+   
+}
+
+span{
+    color: $color_white;
+    font-size: 14px;
+    padding: 7px 5px !important;
+    
+}
+
+.navbar-toggler {
+    border-color: $color_white !important;
+    width: 80px;
+    padding: 0 2px;
+}

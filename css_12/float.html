@@ -5,91 +5,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="float.css">
     <title>Float</title>
 </head>
 
 <body>
-    <div id="container">
+    <div class="container">
+
         <header>
-            <nav>
-                <ul>
-                    <li>Blog</li>
-                    <li>Contact</li>
-                    <li>About</li>
-                    <li>Home</li>
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+                <a class="navbar-brand text-white" href="#">BitStudent</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
-        <img src="https://udemy-images.udemy.com/course/750x422/505208_2307_4.jpg" alt="css/html" width="950px">
+        <div class='row'>
+            <div class='col-12'>
+                <img src="https://udemy-images.udemy.com/course/750x422/505208_2307_4.jpg" alt="css/html">
+            </div>
+        </div>
         <!-- <div id="content"> -->
         <main>
-            <ul id="list">
-                <li>Rebuilding slack.com</li>
-                <hr>
-                <li>Zasto bootcamp format?</li>
-                <hr>
-                <li>React-prozor u svet web aplikacija</li>
-                <hr>
-                <li>Najvece zablude o programerima u Srbiji</li>
-                <hr>
-            </ul>
-            <article>
-                <p>
-                    <img src="http://via.placeholder.com/300x200/AA1515" alt="red"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, debitis adipisci. Sed doloremque
-                    beatae libero quasi quod necessitatibus eum autem sequi enim quia! Quos doloribus sint laborum fugiat
-                    ipsum est.</p>
-            </article>
-            <article>
-                <p>
-                    <img src="http://via.placeholder.com/300x200/15153B" alt="blue"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, debitis adipisci. Sed doloremque
-                    beatae libero quasi quod necessitatibus eum autem sequi enim quia! Quos doloribus sint laborum fugiat
-                    ipsum est.</p>
-            </article>
-            <article>
-                <p class='new-line'>
-                    <img src="http://via.placeholder.com/300x200/F7D512" alt="yellow">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, debitis adipisci. Sed doloremque
-                    beatae libero quasi quod necessitatibus eum autem sequi enim quia! Quos doloribus sint laborum fugiat
-                    ipsum est.</p>
-            </article>
-            <article>
-                <p>
-                    <img src="http://via.placeholder.com/300x200/1FB168" alt="green">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, debitis adipisci. Sed doloremque
-                    beatae libero quasi quod necessitatibus eum autem sequi enim quia! Quos doloribus sint laborum fugiat
-                    ipsum est.</p>
-            </article>
-            <article>
-                <p>
-                    <img src="http://via.placeholder.com/300x200/AA1515" alt="red">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, debitis adipisci. Sed doloremque
-                    beatae libero quasi quod necessitatibus eum autem sequi enim quia! Quos doloribus sint laborum fugiat
-                    ipsum est.</p>
-            </article>
-            <article>
-                <p>
-                    <img class='new-line' src="http://via.placeholder.com/300x200/15153B" alt="blue">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, debitis adipisci. Sed doloremque
-                    beatae libero quasi quod necessitatibus eum autem sequi enim quia! Quos doloribus sint laborum fugiat
-                    ipsum est.</p>
-            </article>
-            <article>
-                <p>
-                    <img src="http://via.placeholder.com/300x200/F7D512" alt="yellow">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, debitis adipisci. Sed doloremque
-                    beatae libero quasi quod necessitatibus eum autem sequi enim quia! Quos doloribus sint laborum fugiat
-                    ipsum est.</p>
-            </article>
-            <article>
-                <p>
-                    <img src="http://via.placeholder.com/300x200/1FB168" alt="green">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, debitis adipisci. Sed doloremque
-                    beatae libero quasi quod necessitatibus eum autem sequi enim quia! Quos doloribus sint laborum fugiat
-                    ipsum est.</p>
-            </article>
-            <!-- </div>  -->
+            <div class="row">
+                <div class='col-sm-12 col-md-6 col-lg-4'>
+                    <article>
+                        <p>
+                            <img src="http://via.placeholder.com/300x200/AA1515" alt="red"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, debitis adipisci. Sed
+                            doloremque beatae libero quasi quod necessitatibus eum autem sequi enim quia! Quos doloribus
+                            sint laborum fugiat ipsum est.</p>
+                    </article>
+                </div>
+                <div class='col-sm-12 col-md-6 col-lg-4'>
+                    <article>
+                        <p>
+                            <img src="http://via.placeholder.com/300x200/15153B" alt="blue"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, debitis adipisci. Sed
+                            doloremque beatae libero quasi quod necessitatibus eum autem sequi enim quia! Quos doloribus
+                            sint laborum fugiat ipsum est.</p>
+                    </article>
+                </div>
+                <div class='col-sm-12 col-md-6 col-lg-4'>
+                    <ul id="list">
+                        <li>Rebuilding slack.com</li>
+
+                        <li>Zasto bootcamp format?</li>
+
+                        <li>React-prozor u svet web aplikacija</li>
+
+                        <li>Najvece zablude o programerima u Srbiji</li>
+
+                    </ul>
+                </div>
+
+
+
+
+                <div class='col-sm-12 col-md-6 col-lg-4'>
+                    <article>
+                        <p class='new-line'>
+                            <img src="http://via.placeholder.com/300x200/F7D512" alt="yellow">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, debitis adipisci. Sed doloremque
+                            beatae libero quasi quod necessitatibus eum autem sequi enim quia! Quos doloribus sint laborum
+                            fugiat ipsum est.</p>
+                    </article>
+                </div>
+
+                <div class='col-sm-12 col-md-6 col-lg-4'>
+                    <article>
+                        <p>
+                            <img src="http://via.placeholder.com/300x200/1FB168" alt="green">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, debitis adipisci. Sed doloremque
+                            beatae libero quasi quod necessitatibus eum autem sequi enim quia! Quos doloribus sint laborum
+                            fugiat ipsum est.</p>
+                    </article>
+                </div>
+
+                <div class='col-sm-12 col-md-6 col-lg-4'>
+                    <article>
+                        <p>
+                            <img src="http://via.placeholder.com/300x200/AA1515" alt="red">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, debitis adipisci. Sed doloremque
+                            beatae libero quasi quod necessitatibus eum autem sequi enim quia! Quos doloribus sint laborum
+                            fugiat ipsum est.</p>
+                    </article>
+                </div>
+
+
+
+                <div class='col-sm-12 col-md-6 col-lg-4'>
+                    <article>
+                        <p>
+                            <img class='new-line' src="http://via.placeholder.com/300x200/15153B" alt="blue">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, debitis adipisci. Sed doloremque
+                            beatae libero quasi quod necessitatibus eum autem sequi enim quia! Quos doloribus sint laborum
+                            fugiat ipsum est.</p>
+                    </article>
+                </div>
+
+                <div class='col-sm-12 col-md-6 col-lg-4'>
+                    <article>
+                        <p>
+                            <img src="http://via.placeholder.com/300x200/F7D512" alt="yellow">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, debitis adipisci. Sed doloremque
+                            beatae libero quasi quod necessitatibus eum autem sequi enim quia! Quos doloribus sint laborum
+                            fugiat ipsum est.</p>
+                    </article>
+                </div>
+
+                <div class='col-sm-12 col-md-6 col-lg-4'>
+                    <article>
+                        <p>
+                            <img src="http://via.placeholder.com/300x200/1FB168" alt="green">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, debitis adipisci. Sed doloremque
+                            beatae libero quasi quod necessitatibus eum autem sequi enim quia! Quos doloribus sint laborum
+                            fugiat ipsum est.</p>
+                    </article>
+                </div>
+
+
+            </div>
         </main>
+
+        <footer>
+            <div id="bit">
+                <p>&copy; BITStudent</p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
     </div>
-    <footer>
-        <div id="main">
-            <p>&copy; BITStudent</p>
-        </div>
-    </footer>
 </body>
 
 </html>
