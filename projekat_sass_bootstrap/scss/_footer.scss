@@ -1,0 +1,40 @@
+$color_blueish: #2c3e50;
+$color_white: white;
+footer {
+    background-color: $color_blueish;
+    color: $color_white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3%;
+    
+
+    [class*= "col-"] {
+        padding-bottom: 4%;
+    }
+    h3 {
+        font-weight: 800;
+        padding-bottom: 5%;
+    }
+    .fa {
+        border: 1px solid $color_white;
+        width: 36px;
+        height: 36px;
+        padding: 8px 5px 5px 5px;
+        border-radius: 50%;
+    }
+    @media only screen and (min-width: 768px) {
+        #details {
+            text-align: justify;
+        }
+    }
+    #copy {
+        font-size: 14px;
+        text-align: center;
+        span {
+            color: #868e96;
+
+        }
+        padding-bottom: 1%;
+    }
+
+}
