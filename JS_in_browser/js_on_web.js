@@ -60,29 +60,28 @@ function pass(){
 
 pass();
 
-function getData(key){
-    if(storage.getItem(key)==null){
-        console.log('There is no data!');
-    } else {
-        console.log(storage.getItem(key));
-    }
-}
+// function getData(key){
+//     if(storage.getItem(key)==null){
+//         console.log('There is no data!');
+//     } else {
+//         console.log(storage.getItem(key));
+//     }
+// }
 
-getData('Name');
+// getData('Name');
 
-function remo(){
-    storage.clear();
-    console.log(storage);
-}
+// function remo(){
+//     storage.clear();
+//     console.log(storage);
+// }
 
-remo();
+// remo();
 
 
 // function play(){
 //     history.back();
 // }
-
-// play();
+//  play();
 
 // function play1(){
 //     history.forward();
@@ -90,8 +89,32 @@ remo();
 
 // play1();
 
-function play2(){
-    history.go(2);
-}
+// function play2(){
+//     history.go(-2);
+// }
 
-play2();
+// play2();
+
+
+// function greetingMessage(){
+//     alert('Hello user!');
+// }
+
+// setTimeout(greetingMessage, 1000);
+
+
+
+function question(){
+
+    alert('Hello user!')
+    var quest = prompt('What type of cats you like?');
+    if (quest){
+        conf = confirm('We will submit this answer now! '+ quest);
+    }
+
+    if (conf){
+        alert('success');
+    }
+
+}
+question();
