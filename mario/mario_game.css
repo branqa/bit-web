@@ -1,0 +1,22 @@
+body {
+    background-color: #0212fe;
+    padding: 0;
+    margin: 0;
+}
+
+#background-image {
+    background-image: url(./images/bg.jpg);
+    background-repeat: repeat-x;
+    height: 974px;
+    background-position: center bottom;
+}
+
+#mario-stop{
+    position: absolute;
+    bottom: 86px;
+    left: 500px;
+}
+
+/* .visible{
+   display:none;
+} */
