@@ -11,7 +11,7 @@ function moveBackground() {
   interval = setInterval(function() {
     x -= 1;
     background.style.backgroundPosition = x + "px 500px";
-  }, 10);
+  }, 0);
 }
 
 background.addEventListener("keydown", function(event) {

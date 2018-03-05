@@ -1,0 +1,17 @@
+.bottom{
+    border-bottom: 1px solid red;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+
+.newcolor{
+    color:blue;
+}
+
+.background{
+    background-color: blueviolet;
+}

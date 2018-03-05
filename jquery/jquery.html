@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        .b {
+            border: 1px solid red;
+        }
+    </style>
+
+    <h1>ToDo list</h1>
+
+    <ul>
+        <li class="new">1</li>
+        <li>2</li>
+        <li><em>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, quo! Eos consequuntur laudantium amet, culpa voluptates magnam, explicabo voluptate praesentium illo dignissimos earum repellat temporibus quae expedita iure odit veritatis?</em></li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    
+    <script>
+        $(function(){
+
+              console.log('Hello, world');  
+        })
+
+        $(function(){
+            // $('li:has(a)').hide();
+            $('li:first').replaceWith('<li>New element list</li>');
+            $('li:eq(1)').html
+        })
+
+        $('li').addClass('b');
+
+
+
+        </script>
+  
+</body>
+</html>
